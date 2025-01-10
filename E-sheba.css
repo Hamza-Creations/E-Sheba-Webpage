@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap");
+.navbar{
+    width: 1303px;
+    background-color: rgba(225, 238, 255, 1);
+}
+#nav1{
+    width: 1200px;
+    margin-left: 60px;
+}
+#navE{
+    font-family: IBM Plex Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 41.6px;
+text-align: left;
+}
+#navbarNav{
+    margin-left: 300px;
+    align-items: center;
+}
+#navcontent{
+    margin-right: 15px;
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: black;
+}
+#navcontent:hover{
+    color: #0360D9;
+    text-decoration: underline;
+}
+#navlogin{
+    width: 90px;
+margin-right: 10px;
+border-radius: 20px;
+font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #0360D9;
+}
+#navlogin:hover{
+    color:white
+}
+#navsignup{
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.extra{
+    width: 1303px;
+    background-color: #E1EEFF;
+}
+.doctor{
+    margin-top: -280px;
+    width: 1303px;
+    background-image: url(backgroundpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 522px;
+}
+/* .extra1{
+padding-top: 310px;
+} */
+#dropdown{
+    margin-top: 18px;
+    background-color: white;
+    width: 740px;
+    height: 70px;
+    border-radius: 50px;
+    margin-left: 55px;
+}
+.drheading{
+    margin-left: 70px;
+    padding-top: 70px;
+    width: 575px;
+}
+.drheading1{
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    text-align: left;
+}
+.vector5{
+    margin-top: -50px;
+}
+.drheading2{
+    width: 450px;
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #163048;
+}
+#drop1{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#drop2{
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.searchicon{
+    margin-left: 215px;
+    background-color: #0360D9;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+#iconpic{
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#hrcontent{
+    background-color: #0360D9;
+    margin-top: 42px;
+    width: 815px;
+}
+.horizontalline{
+    padding-left: 65px;
+    margin-right: 100px;
+    font-family: IBM Plex Sans;
+    color: #FFFFFF;
+text-align: left;
+}
+.drback{
+    margin-right: 459px;
+    margin-top: 440px;
+}
+.drpic{
+    margin-left: -143px;
+    width: 500px;
+    height: 490px;
+    margin-top: -408px;
+}
+.specialist{
+    width: 1253px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+}
+.specialist-heading-font{
+    font-family: IBM Plex Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 62.4px;
+text-align: left;
+color: #2E2E2E;
+margin-bottom: 30px;
+}
+#cardsgroup{
+    margin-right: 90px;
+}
+.card1{
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(2, 21, 38, 0.3);
+}
+.card1:hover{
+    background-color: #0360D9;
+}
+.card1:hover .cardheading, .card1:hover .cardabout {
+    color: #FFFFFF;
+  }
+.iconcircle{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #E6F5FC;
+    margin-left: 30px;
+}
+#vector1{
+    margin-left: 12px;
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+.cardheading{
+    margin-top: 30px;
+    margin-left: 33px;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color: #021526;
+}
+.cardabout{
+    margin-left: 33px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #163048;
+}
+.choose{
+    width: 1303px;
+    margin-bottom: 30px;
+}
+#chooseflex{
+    margin-left: 60px;
+    margin-right: 150px;
+}
+.chooseheading{
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+    margin-bottom: 35px;
+    color: #2E2E2E;
+}
+#chooselist{
+    margin-left: 0px;
+}
+#chooselistitem{
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #2E2E2E;
+}
+.tickicon{
+    margin-right: 14px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+.learn{
+    margin-left: 35px;
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+text-align: left;
+color: #0360D9;
+}
+#arrow:hover{
+    width: 17px;
+}
+.choose1{
+    width: 1303px;
+    margin-top: 100px;
+    margin-bottom: 115px;
+}
+.patientdr{
+    margin-right: -50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 550px;
+    height: 418px;
+}
+.choosetext1{
+    width: 500px;
+}
+#chooselist1{
+    margin-left: -33px;
+}
+#chooselistitem1 {
+    margin-bottom: 10px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #2E2E2E;
+}
+.learn1 {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: left;
+    color: #0360D9;
+}
+.subscribe{
+    margin-bottom: 40px;
+    margin-left: 60px;
+    background-color: #0360D9;
+    width: 1145px;
+    height: 300px;
+    border-radius: 20px;
+}
+.sub1{
+    font-family: IBM Plex Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 52px;
+text-align: center;
+color: #FFFFFF;
+
+}
+#dropdown1 {
+    padding-top: 10px;
+    margin-top: 22px;
+    background-color: white;
+    width: 870px;
+    height: 70px;
+    border-radius: 50px;
+    margin-left: 142px;
+}
+.searchicon1 {
+    margin-left: 812px;
+    background-color: #0360D9;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+#iconpic1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.subcontent{
+    padding-top: 105px;
+}
+.member{
+    width: 1303px;
+    background-color: #E1EEFF;
+    height: 590px;
+    margin-top: 150px;
+    margin-bottom: 135px;
+}
+#memberflex{
+    padding-top: 150px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.memberheading{
+    font-family: IBM Plex Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 62.4px;
+text-align: left;
+color: #2E2E2E;
+margin-bottom: 20px;
+}
+.membertext{
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #2E2E2E;
+margin-bottom: 30px;
+}
+.membercard{
+    background-color:#FFFFFF;
+    width: 500px;
+    height:300px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+#membericon{
+    margin-left: -17px;
+}
+.review{
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20.8px;
+text-align: left;
+color: #2E2E2E;
+
+}
+#member-cardpic{
+    width: 500px;
+    height: 300px;
+}
+.footer{
+    width: 1303px;
+    height: 500px;
+    background-color: #0360D9;
+    margin-top: 130px;
+}
+#footerflex{
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.footerparts{
+    margin-right: 108px;
+}
+.partheading{
+    width: 138px;
+    font-family: IBM Plex Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: left;
+color: #ffffff;
+}
+.parttext{
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 20px;
+}
+#partlists{
+    width: 102px;
+    margin-left: -30px;
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.8px;
+text-align: left;
+color: #FFFFFF;
+}
+.map{
+    margin-top: 20px;
+}
+.hrline{
+    border: 2px solid #ffffff; 
+    width: 1130px; 
+    margin-left: 60px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: IBM Plex Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: center;
+color: #FFFFFF;
+}
+.circle{
+        position: absolute;
+        margin-left: -41px;
+        margin-top: -250px;
+        background: #A5CCFF;
+        border-radius: 280px 280px 0px 0px;
+        height: 260px;
+}
+.blueline{
+ margin-top: 250px;
+    height: 81px;
+    background: #0360D9;
+    position: relative;
+    width: 500px;
+}
+.dr{
+    width: 458px;
+    height: 550px;
+    position: relative;
+    margin-top: -469px;
+    margin-left: -50px;
+}
+
+/* //////////////////////////////// */
+@media (min-width:1440px){
+    .navbar{
+        width: 1440px;
+    }
+    #navbarNav {
+        margin-right: 190px;
+        margin-left: 350px;
+        align-items: center;
+}
+.extra{
+    width: 1440px;
+}
+.doctor{
+    width: 1440px;
+    height: 567px;
+}
+#dropdown{
+    width: 966px;
+}
+.searchicon{
+    margin-left: 315px;
+}
+#hrcontent{
+    margin-top: 82px;
+    margin-left: 0px;
+}
+.horizontalline{
+    margin-right: 180px;
+}
+.drpic{
+    margin-top: -403px;
+}
+.member{
+    width: 1440px;
+}
+.membercard{
+    margin-left: 330px;
+}
+.specialist{
+    width: 1440px;
+}
+.choose{
+    width: 1440px;
+}
+.choose1{
+    width: 1440px;
+}
+.footer{
+    width: 1440px;
+}
+.subscribe{
+    width: 1283px;
+}
+#dropdown1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    margin-left: 16.5%;
+}
+.hrline{
+    width: 1264px;
+}
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .navbar-toggler{
+        margin-left: 881px;
+    }
+    #navbarNav{
+        margin-left: 0px;
+    }
+    .nav-button-login{
+        margin-top: 15px;
+    }
+    .nav-button-signup{
+        margin-top: 15px;
+        margin-right: -15px;
+    }
+    .drpic{
+        margin-left: -140px;
+    }
+}
+@media (min-width:320px) and (max-width:767px) {
+    .navbar-toggler{
+        margin-left: 900px;
+    }
+    #navbarNav{
+        margin-left: 0px;
+    }
+    .nav-button-login{
+        margin-top: 15px;
+    }
+    .nav-button-signup{
+        margin-top: 15px;
+        margin-right: -15px;
+    }
+    .drheading2 {
+        width: 98%;
+        font-family: IBM Plex Sans;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 40.8px;
+        text-align: justify;
+        color: #163048;
+    }
+    #extraflex{
+        flex-wrap: wrap;
+    }
+    .drheading{
+        width: 98%;
+    }
+    .vector5 {
+        margin-left: 585px;
+        margin-top: -40px;
+    }
+    #hrcontent{
+        width: 113%;
+    }
+    .horizontalline{
+        width: 33.3%;
+        margin-right: 100px;
+        font-size: 24px;
+    }
+.circle{
+    margin-left: 415px;
+    width: 500px;
+}
+.blueline{
+    margin-left: -415px;
+    width: 1303px;
+       }
+   .dr{
+    margin-left: 360px;
+   }
+    .specialist{
+        margin-top: 200px;
+    }
+    #cardsgroup{
+        flex-wrap: wrap;
+    }
+    .card1{
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .choose{
+        margin-top: -50px;
+    }
+    #chooseflex{
+        margin-left: 260px;
+    flex-wrap: wrap-reverse;
+    }
+    .chooseimg{
+        width: 90%;
+    margin-top: 90px;
+    }
+    .choosetext{
+        width: 90%;
+    }
+    #chooselistitem{
+        font-size: 28px;
+        font-weight: 550;
+    }
+    .learn{
+        font-size: 28px;
+    }
+    .member{
+        height: 890px;
+    }
+    #memberflex{
+        flex-wrap: wrap;
+    }
+    .memberabout{
+        margin-top: -6%;
+        margin-left: 17%;
+        margin-bottom: 6%;
+    }
+    .membertext{
+        font-size: 24px;
+        line-height: 34.8px;
+    }
+    #member-cardpic{
+        width: 630px;
+        height: 370px;
+    }
+    .patientdr{
+        margin-bottom: 100px;
+    width: 630px;
+    height: 418px;
+}
+#chooselistitem1{
+    width: 700px;
+    font-size: 24px;
+    line-height: 30.8px;
+}
+.learn1{
+    font-size: 20px;
+}
+.footer{
+    height: 730px;
+}
+#footerflex{
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+.footerparts{
+    width: 100%;
+    margin-top: 50px;
+}
+}
+
